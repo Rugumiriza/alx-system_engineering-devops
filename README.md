@@ -1,1 +1,1 @@
-My first readme
+csript to switch from current user to user betty
