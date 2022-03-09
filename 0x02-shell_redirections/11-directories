@@ -1,3 +1,3 @@
 #!/bin/bash
-find /root@04eb3b63c88c:~/alx-system_engineering-devops/0x02-shell_redirections -type d -exec echo dirs \; -o -type f -exec echo files \; | sort | uniq -c
+find . -type d ! -path . -print | wc -l
 
